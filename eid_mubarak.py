@@ -591,7 +591,7 @@ def main():
     st.markdown(f"""
         <div class="message-card">
             <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 600; margin-bottom: 20px; color: #333;">
-                Dear Friends and Family,
+                Dear Aamna,
             </h2>
             <p style="font-family: 'Playfair Display', serif; font-size: 1.3rem; line-height: 1.8; color: #444; margin-bottom: 20px;">
                 {eid_message}
@@ -600,7 +600,8 @@ def main():
                 On this blessed occasion of Eid ul Adha, may Allah's blessings be with you and your family. May this special day bring peace, joy, and happiness to your life.
             </p>
             <p class="rose-gold-text" style="text-align: right; font-size: 1.5rem; margin-top: 30px;">
-                Eid Mubarak!
+                Eid Mubarak!<br>
+                <span style="font-size: 1.2rem;">From Suffian</span>
             </p>
         </div>
     """, unsafe_allow_html=True)
