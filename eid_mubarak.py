@@ -460,7 +460,7 @@ def show_premium_countdown():
     if days > 0 or hours > 0 or minutes > 0 or seconds > 0:
         st.markdown("""
         <div class="premium-container reflection">
-            <h2 style="text-align: center; font-family: 'Playfair Display', serif; margin-bottom: 30px;">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; margin-bottom: 30px;color: black;">
                 Eid ul Adha Celebration
             </h2>
         """, unsafe_allow_html=True)
@@ -520,13 +520,13 @@ def create_floating_image(image_url, size=200, rotation=5, delay=0):
 
 # Main function
 def main():
-    # Add timezone information to the app
-    st.sidebar.markdown("### Celebration Details")
-    st.sidebar.markdown("**Timezone:** Asia/Karachi (Pakistan Standard Time)")
-    st.sidebar.markdown("**Current Date in Selected Timezone:**")
-    timezone = pytz.timezone('Asia/Karachi')
-    current_time = datetime.now(timezone)
-    st.sidebar.markdown(f"{current_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    # # Add timezone information to the app
+    # st.sidebar.markdown("### Celebration Details")
+    # st.sidebar.markdown("**Timezone:** Asia/Karachi (Pakistan Standard Time)")
+    # st.sidebar.markdown("**Current Date in Selected Timezone:**")
+    # timezone = pytz.timezone('Asia/Karachi')
+    # current_time = datetime.now(timezone)
+    # st.sidebar.markdown(f"{current_time.strftime('%Y-%m-%d %H:%M:%S')}")
     
     local_css()
     generate_confetti()
